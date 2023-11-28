@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Maze - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Maze.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\Maze.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP194.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Maze.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\cmaze.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\MainFrm.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\Maze.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\MazeDoc.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\MazeView.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\mouse.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\my_assert.cpp"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\position.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP194.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP195.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Maze.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Maze\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP195.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP196.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Maze.pdb" /machine:I386 /out:"Release/Maze.exe" 
+".\Release\cmaze.obj"
+".\Release\MainFrm.obj"
+".\Release\Maze.obj"
+".\Release\MazeDoc.obj"
+".\Release\MazeView.obj"
+".\Release\mouse.obj"
+".\Release\my_assert.obj"
+".\Release\position.obj"
+".\Release\StdAfx.obj"
+".\Release\Maze.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP196.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cmaze.cpp
+MainFrm.cpp
+Maze.cpp
+MazeDoc.cpp
+MazeView.cpp
+mouse.cpp
+my_assert.cpp
+position.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Maze.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
